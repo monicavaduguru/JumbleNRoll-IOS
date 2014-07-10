@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4082C7C19230A8A0089CD2B /* main1.png in Resources */ = {isa = PBXBuildFile; fileRef = A4082C7B19230A8A0089CD2B /* main1.png */; };
+		A4082C82192316EC0089CD2B /* RollModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4082C81192316EC0089CD2B /* RollModeViewController.m */; };
+		A4082C84192331860089CD2B /* Main.png in Resources */ = {isa = PBXBuildFile; fileRef = A4082C83192331860089CD2B /* Main.png */; };
+		A4082C86192A6B2C0089CD2B /* main2.png in Resources */ = {isa = PBXBuildFile; fileRef = A4082C85192A6B2C0089CD2B /* main2.png */; };
+		A4082C91192C7F1B0089CD2B /* DragModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4082C90192C7F1B0089CD2B /* DragModeViewController.m */; };
+		A4082C95192C8A360089CD2B /* dragmode.png in Resources */ = {isa = PBXBuildFile; fileRef = A4082C94192C8A360089CD2B /* dragmode.png */; };
+		A4082C97192C8AF10089CD2B /* roll.png in Resources */ = {isa = PBXBuildFile; fileRef = A4082C96192C8AF10089CD2B /* roll.png */; };
+		A4082C9B192CEA520089CD2B /* Woodgame.png in Resources */ = {isa = PBXBuildFile; fileRef = A4082C9A192CEA520089CD2B /* Woodgame.png */; };
+		A4082CA3192D25260089CD2B /* gameex.PNG in Resources */ = {isa = PBXBuildFile; fileRef = A4082CA2192D25260089CD2B /* gameex.PNG */; };
+		A4082CA5192D2B1A0089CD2B /* gameexdrag.png in Resources */ = {isa = PBXBuildFile; fileRef = A4082CA4192D2B190089CD2B /* gameexdrag.png */; };
+		A4082CA7192D3E170089CD2B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4082CA6192D3E170089CD2B /* icon.png */; };
+		A4082CAB192D44C70089CD2B /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = A4082CA8192D44C60089CD2B /* icon1.png */; };
+		A4082CAC192D44C70089CD2B /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = A4082CA9192D44C60089CD2B /* icon2.png */; };
+		A4082CAD192D44C70089CD2B /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = A4082CAA192D44C60089CD2B /* icon3.png */; };
+		A41C438B1939369F007DA58D /* Woodgame1.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C438A1939369F007DA58D /* Woodgame1.png */; };
+		A41C438E19393718007DA58D /* BestTimesControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C438D19393718007DA58D /* BestTimesControllerViewController.m */; };
+		A41C439019393B54007DA58D /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C438F19393B54007DA58D /* trophy.png */; };
+		A41C43921939A57D007DA58D /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C43911939A57D007DA58D /* reset.png */; };
+		A41C4398193A2BA1007DA58D /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C4397193A2BA1007DA58D /* CommonViewController.m */; };
+		A41C439A193A66EC007DA58D /* word2.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C4399193A66EC007DA58D /* word2.png */; };
+		A41C439C193A6727007DA58D /* word1.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C439B193A6727007DA58D /* word1.png */; };
+		A41C439E193A6804007DA58D /* main3.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C439D193A6804007DA58D /* main3.png */; };
+		A41C43A0193A6809007DA58D /* main4.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C439F193A6809007DA58D /* main4.png */; };
+		A41C43A4193A6B4B007DA58D /* words.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C43A3193A6B4B007DA58D /* words.png */; };
+		A44003E1191C396F00FF62CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44003E0191C396F00FF62CD /* Foundation.framework */; };
+		A44003E3191C396F00FF62CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44003E2191C396F00FF62CD /* CoreGraphics.framework */; };
+		A44003E5191C396F00FF62CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44003E4191C396F00FF62CD /* UIKit.framework */; };
+		A44003EB191C396F00FF62CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A44003E9191C396F00FF62CD /* InfoPlist.strings */; };
+		A44003ED191C397000FF62CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A44003EC191C397000FF62CD /* main.m */; };
+		A44003F1191C397000FF62CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A44003F0191C397000FF62CD /* AppDelegate.m */; };
+		A44003F4191C397000FF62CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44003F2191C397000FF62CD /* Main.storyboard */; };
+		A44003F7191C397100FF62CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A44003F6191C397100FF62CD /* ViewController.m */; };
+		A44003F9191C397100FF62CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44003F8191C397100FF62CD /* Images.xcassets */; };
+		A4400400191C397100FF62CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44003FF191C397100FF62CD /* XCTest.framework */; };
+		A4400401191C397100FF62CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44003E0191C396F00FF62CD /* Foundation.framework */; };
+		A4400402191C397100FF62CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44003E4191C396F00FF62CD /* UIKit.framework */; };
+		A440040A191C397200FF62CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4400408191C397200FF62CD /* InfoPlist.strings */; };
+		A440040C191C397200FF62CD /* JumbleNRollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A440040B191C397200FF62CD /* JumbleNRollTests.m */; };
+		A4400420191C3A3D00FF62CD /* ball1.png in Resources */ = {isa = PBXBuildFile; fileRef = A4400418191C3A3D00FF62CD /* ball1.png */; };
+		A4400421191C3A3D00FF62CD /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = A4400419191C3A3D00FF62CD /* circle.png */; };
+		A4400422191C3A3D00FF62CD /* redball.gif in Resources */ = {isa = PBXBuildFile; fileRef = A440041A191C3A3D00FF62CD /* redball.gif */; };
+		A4400423191C3A3D00FF62CD /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A440041B191C3A3D00FF62CD /* Wood.jpg */; };
+		A4400424191C3A3D00FF62CD /* Wood1.png in Resources */ = {isa = PBXBuildFile; fileRef = A440041C191C3A3D00FF62CD /* Wood1.png */; };
+		A4400427191C3A3D00FF62CD /* Woodgame2.png in Resources */ = {isa = PBXBuildFile; fileRef = A440041F191C3A3D00FF62CD /* Woodgame2.png */; };
+		A440042A191C3A7D00FF62CD /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4400429191C3A7D00FF62CD /* InstructionsViewController.m */; };
+		A440042D191C3AB300FF62CD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A440042C191C3AB300FF62CD /* FirstViewController.m */; };
+		A44BDC38191D90F9002AA72B /* a.gif in Resources */ = {isa = PBXBuildFile; fileRef = A44BDC37191D90F9002AA72B /* a.gif */; };
+		A45A4E68193913D9009E79FA /* BestTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = A45A4E67193913D9009E79FA /* BestTimes.m */; };
+		A45A4E71193918FE009E79FA /* Times.m in Sources */ = {isa = PBXBuildFile; fileRef = A45A4E70193918FE009E79FA /* Times.m */; };
+		A492294F191FB4EE00AD8087 /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = A492294E191FB4EE00AD8087 /* AudioController.m */; };
+		A4922952191FBD6000AD8087 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4922951191FBD6000AD8087 /* SecondViewController.m */; };
+		A492295D19208BDF00AD8087 /* Music3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A492295C19208BDF00AD8087 /* Music3.mp3 */; };
+		A49229631920922A00AD8087 /* Audio.m in Sources */ = {isa = PBXBuildFile; fileRef = A49229621920922A00AD8087 /* Audio.m */; };
+		A4EB78C8191C3D3200702D83 /* CircleTile.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EB78C7191C3D3200702D83 /* CircleTile.m */; };
+		A4EB78CB191C3DAA00702D83 /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EB78CA191C3DAA00702D83 /* BallView.m */; };
+		A4EB78CE191C423800702D83 /* SquareTile.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EB78CD191C423800702D83 /* SquareTile.m */; };
+		A4EB78D2191C497800702D83 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = A4EB78D1191C497800702D83 /* square.png */; };
+		A4F90A431937FDE000C0AC0B /* drag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4F90A421937FDE000C0AC0B /* drag.jpg */; };
+		A4F90A451937FF6D00C0AC0B /* tilt1.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F90A441937FF6D00C0AC0B /* tilt1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4400403191C397100FF62CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44003D5191C396F00FF62CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44003DC191C396F00FF62CD;
+			remoteInfo = JumbleNRoll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4082C7B19230A8A0089CD2B /* main1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main1.png; sourceTree = "<group>"; };
+		A4082C80192316EC0089CD2B /* RollModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollModeViewController.h; sourceTree = "<group>"; };
+		A4082C81192316EC0089CD2B /* RollModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollModeViewController.m; sourceTree = "<group>"; };
+		A4082C83192331860089CD2B /* Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Main.png; sourceTree = "<group>"; };
+		A4082C85192A6B2C0089CD2B /* main2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main2.png; sourceTree = "<group>"; };
+		A4082C8F192C7F1A0089CD2B /* DragModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragModeViewController.h; sourceTree = "<group>"; };
+		A4082C90192C7F1B0089CD2B /* DragModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragModeViewController.m; sourceTree = "<group>"; };
+		A4082C94192C8A360089CD2B /* dragmode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragmode.png; sourceTree = "<group>"; };
+		A4082C96192C8AF10089CD2B /* roll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roll.png; sourceTree = "<group>"; };
+		A4082C9A192CEA520089CD2B /* Woodgame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Woodgame.png; sourceTree = "<group>"; };
+		A4082CA2192D25260089CD2B /* gameex.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameex.PNG; sourceTree = "<group>"; };
+		A4082CA4192D2B190089CD2B /* gameexdrag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameexdrag.png; sourceTree = "<group>"; };
+		A4082CA6192D3E170089CD2B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A4082CA8192D44C60089CD2B /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		A4082CA9192D44C60089CD2B /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		A4082CAA192D44C60089CD2B /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
+		A41C438A1939369F007DA58D /* Woodgame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Woodgame1.png; sourceTree = "<group>"; };
+		A41C438C19393718007DA58D /* BestTimesControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestTimesControllerViewController.h; sourceTree = "<group>"; };
+		A41C438D19393718007DA58D /* BestTimesControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestTimesControllerViewController.m; sourceTree = "<group>"; };
+		A41C438F19393B54007DA58D /* trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophy.png; sourceTree = "<group>"; };
+		A41C43911939A57D007DA58D /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		A41C4396193A2BA1007DA58D /* CommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		A41C4397193A2BA1007DA58D /* CommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		A41C4399193A66EC007DA58D /* word2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word2.png; sourceTree = "<group>"; };
+		A41C439B193A6727007DA58D /* word1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word1.png; sourceTree = "<group>"; };
+		A41C439D193A6804007DA58D /* main3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main3.png; sourceTree = "<group>"; };
+		A41C439F193A6809007DA58D /* main4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main4.png; sourceTree = "<group>"; };
+		A41C43A3193A6B4B007DA58D /* words.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = words.png; sourceTree = "<group>"; };
+		A44003DD191C396F00FF62CD /* JumbleNRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumbleNRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44003E0191C396F00FF62CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A44003E2191C396F00FF62CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A44003E4191C396F00FF62CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A44003E8191C396F00FF62CD /* JumbleNRoll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumbleNRoll-Info.plist"; sourceTree = "<group>"; };
+		A44003EA191C396F00FF62CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A44003EC191C397000FF62CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A44003EE191C397000FF62CD /* JumbleNRoll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JumbleNRoll-Prefix.pch"; sourceTree = "<group>"; };
+		A44003EF191C397000FF62CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A44003F0191C397000FF62CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A44003F3191C397000FF62CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A44003F5191C397100FF62CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A44003F6191C397100FF62CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A44003F8191C397100FF62CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A44003FE191C397100FF62CD /* JumbleNRollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumbleNRollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44003FF191C397100FF62CD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A4400407191C397200FF62CD /* JumbleNRollTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumbleNRollTests-Info.plist"; sourceTree = "<group>"; };
+		A4400409191C397200FF62CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A440040B191C397200FF62CD /* JumbleNRollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumbleNRollTests.m; sourceTree = "<group>"; };
+		A4400418191C3A3D00FF62CD /* ball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball1.png; sourceTree = "<group>"; };
+		A4400419191C3A3D00FF62CD /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		A440041A191C3A3D00FF62CD /* redball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = redball.gif; sourceTree = "<group>"; };
+		A440041B191C3A3D00FF62CD /* Wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wood.jpg; sourceTree = "<group>"; };
+		A440041C191C3A3D00FF62CD /* Wood1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wood1.png; sourceTree = "<group>"; };
+		A440041F191C3A3D00FF62CD /* Woodgame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Woodgame2.png; sourceTree = "<group>"; };
+		A4400428191C3A7D00FF62CD /* InstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = "<group>"; };
+		A4400429191C3A7D00FF62CD /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = "<group>"; };
+		A440042B191C3AB300FF62CD /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A440042C191C3AB300FF62CD /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A44BDC37191D90F9002AA72B /* a.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = a.gif; sourceTree = "<group>"; };
+		A45A4E66193913D9009E79FA /* BestTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestTimes.h; sourceTree = "<group>"; };
+		A45A4E67193913D9009E79FA /* BestTimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestTimes.m; sourceTree = "<group>"; };
+		A45A4E6F193918FE009E79FA /* Times.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Times.h; sourceTree = "<group>"; };
+		A45A4E70193918FE009E79FA /* Times.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Times.m; sourceTree = "<group>"; };
+		A492294D191FB4EE00AD8087 /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
+		A492294E191FB4EE00AD8087 /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
+		A4922950191FBD6000AD8087 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A4922951191FBD6000AD8087 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A492295C19208BDF00AD8087 /* Music3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music3.mp3; sourceTree = "<group>"; };
+		A49229611920922A00AD8087 /* Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
+		A49229621920922A00AD8087 /* Audio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Audio.m; sourceTree = "<group>"; };
+		A4EB78C6191C3D3200702D83 /* CircleTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleTile.h; sourceTree = "<group>"; };
+		A4EB78C7191C3D3200702D83 /* CircleTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleTile.m; sourceTree = "<group>"; };
+		A4EB78C9191C3DAA00702D83 /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
+		A4EB78CA191C3DAA00702D83 /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+		A4EB78CC191C423800702D83 /* SquareTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareTile.h; sourceTree = "<group>"; };
+		A4EB78CD191C423800702D83 /* SquareTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareTile.m; sourceTree = "<group>"; };
+		A4EB78D1191C497800702D83 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		A4F90A421937FDE000C0AC0B /* drag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drag.jpg; sourceTree = "<group>"; };
+		A4F90A441937FF6D00C0AC0B /* tilt1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tilt1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A44003DA191C396F00FF62CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44003E3191C396F00FF62CD /* CoreGraphics.framework in Frameworks */,
+				A44003E5191C396F00FF62CD /* UIKit.framework in Frameworks */,
+				A44003E1191C396F00FF62CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44003FB191C397100FF62CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4400400191C397100FF62CD /* XCTest.framework in Frameworks */,
+				A4400402191C397100FF62CD /* UIKit.framework in Frameworks */,
+				A4400401191C397100FF62CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A44003D4191C396F00FF62CD = {
+			isa = PBXGroup;
+			children = (
+				A44003E6191C396F00FF62CD /* JumbleNRoll */,
+				A4400405191C397100FF62CD /* JumbleNRollTests */,
+				A44003DF191C396F00FF62CD /* Frameworks */,
+				A44003DE191C396F00FF62CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A44003DE191C396F00FF62CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A44003DD191C396F00FF62CD /* JumbleNRoll.app */,
+				A44003FE191C397100FF62CD /* JumbleNRollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A44003DF191C396F00FF62CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A44003E0191C396F00FF62CD /* Foundation.framework */,
+				A44003E2191C396F00FF62CD /* CoreGraphics.framework */,
+				A44003E4191C396F00FF62CD /* UIKit.framework */,
+				A44003FF191C397100FF62CD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A44003E6191C396F00FF62CD /* JumbleNRoll */ = {
+			isa = PBXGroup;
+			children = (
+				A4400417191C39C700FF62CD /* Controller */,
+				A4400416191C39BF00FF62CD /* View */,
+				A4400415191C39B500FF62CD /* Model */,
+				A44003EF191C397000FF62CD /* AppDelegate.h */,
+				A44003F0191C397000FF62CD /* AppDelegate.m */,
+				A44003F8191C397100FF62CD /* Images.xcassets */,
+				A44003E7191C396F00FF62CD /* Supporting Files */,
+			);
+			path = JumbleNRoll;
+			sourceTree = "<group>";
+		};
+		A44003E7191C396F00FF62CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A41C43A3193A6B4B007DA58D /* words.png */,
+				A41C439F193A6809007DA58D /* main4.png */,
+				A41C439D193A6804007DA58D /* main3.png */,
+				A41C439B193A6727007DA58D /* word1.png */,
+				A41C43911939A57D007DA58D /* reset.png */,
+				A4082C85192A6B2C0089CD2B /* main2.png */,
+				A41C438A1939369F007DA58D /* Woodgame1.png */,
+				A4F90A441937FF6D00C0AC0B /* tilt1.png */,
+				A4F90A421937FDE000C0AC0B /* drag.jpg */,
+				A4082CA8192D44C60089CD2B /* icon1.png */,
+				A4082CA9192D44C60089CD2B /* icon2.png */,
+				A4082CAA192D44C60089CD2B /* icon3.png */,
+				A4082CA6192D3E170089CD2B /* icon.png */,
+				A4082CA4192D2B190089CD2B /* gameexdrag.png */,
+				A4082CA2192D25260089CD2B /* gameex.PNG */,
+				A4082C9A192CEA520089CD2B /* Woodgame.png */,
+				A4082C96192C8AF10089CD2B /* roll.png */,
+				A4082C94192C8A360089CD2B /* dragmode.png */,
+				A4082C83192331860089CD2B /* Main.png */,
+				A4082C7B19230A8A0089CD2B /* main1.png */,
+				A492295C19208BDF00AD8087 /* Music3.mp3 */,
+				A44BDC37191D90F9002AA72B /* a.gif */,
+				A4EB78D1191C497800702D83 /* square.png */,
+				A4400418191C3A3D00FF62CD /* ball1.png */,
+				A4400419191C3A3D00FF62CD /* circle.png */,
+				A440041A191C3A3D00FF62CD /* redball.gif */,
+				A440041B191C3A3D00FF62CD /* Wood.jpg */,
+				A440041C191C3A3D00FF62CD /* Wood1.png */,
+				A440041F191C3A3D00FF62CD /* Woodgame2.png */,
+				A44003E8191C396F00FF62CD /* JumbleNRoll-Info.plist */,
+				A44003E9191C396F00FF62CD /* InfoPlist.strings */,
+				A44003EC191C397000FF62CD /* main.m */,
+				A44003EE191C397000FF62CD /* JumbleNRoll-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4400405191C397100FF62CD /* JumbleNRollTests */ = {
+			isa = PBXGroup;
+			children = (
+				A440040B191C397200FF62CD /* JumbleNRollTests.m */,
+				A4400406191C397200FF62CD /* Supporting Files */,
+			);
+			path = JumbleNRollTests;
+			sourceTree = "<group>";
+		};
+		A4400406191C397200FF62CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4400407191C397200FF62CD /* JumbleNRollTests-Info.plist */,
+				A4400408191C397200FF62CD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4400415191C39B500FF62CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A41C4399193A66EC007DA58D /* word2.png */,
+				A41C438F19393B54007DA58D /* trophy.png */,
+				A492294D191FB4EE00AD8087 /* AudioController.h */,
+				A492294E191FB4EE00AD8087 /* AudioController.m */,
+				A49229611920922A00AD8087 /* Audio.h */,
+				A49229621920922A00AD8087 /* Audio.m */,
+				A4EB78C6191C3D3200702D83 /* CircleTile.h */,
+				A4EB78C7191C3D3200702D83 /* CircleTile.m */,
+				A4EB78C9191C3DAA00702D83 /* BallView.h */,
+				A4EB78CA191C3DAA00702D83 /* BallView.m */,
+				A4EB78CC191C423800702D83 /* SquareTile.h */,
+				A4EB78CD191C423800702D83 /* SquareTile.m */,
+				A45A4E66193913D9009E79FA /* BestTimes.h */,
+				A45A4E67193913D9009E79FA /* BestTimes.m */,
+				A45A4E6F193918FE009E79FA /* Times.h */,
+				A45A4E70193918FE009E79FA /* Times.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A4400416191C39BF00FF62CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A44003F2191C397000FF62CD /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A4400417191C39C700FF62CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A44003F5191C397100FF62CD /* ViewController.h */,
+				A44003F6191C397100FF62CD /* ViewController.m */,
+				A4400428191C3A7D00FF62CD /* InstructionsViewController.h */,
+				A4400429191C3A7D00FF62CD /* InstructionsViewController.m */,
+				A440042B191C3AB300FF62CD /* FirstViewController.h */,
+				A440042C191C3AB300FF62CD /* FirstViewController.m */,
+				A4922950191FBD6000AD8087 /* SecondViewController.h */,
+				A4922951191FBD6000AD8087 /* SecondViewController.m */,
+				A4082C80192316EC0089CD2B /* RollModeViewController.h */,
+				A4082C81192316EC0089CD2B /* RollModeViewController.m */,
+				A4082C8F192C7F1A0089CD2B /* DragModeViewController.h */,
+				A4082C90192C7F1B0089CD2B /* DragModeViewController.m */,
+				A41C438C19393718007DA58D /* BestTimesControllerViewController.h */,
+				A41C438D19393718007DA58D /* BestTimesControllerViewController.m */,
+				A41C4396193A2BA1007DA58D /* CommonViewController.h */,
+				A41C4397193A2BA1007DA58D /* CommonViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A44003DC191C396F00FF62CD /* JumbleNRoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A440040F191C397200FF62CD /* Build configuration list for PBXNativeTarget "JumbleNRoll" */;
+			buildPhases = (
+				A44003D9191C396F00FF62CD /* Sources */,
+				A44003DA191C396F00FF62CD /* Frameworks */,
+				A44003DB191C396F00FF62CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JumbleNRoll;
+			productName = JumbleNRoll;
+			productReference = A44003DD191C396F00FF62CD /* JumbleNRoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A44003FD191C397100FF62CD /* JumbleNRollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4400412191C397200FF62CD /* Build configuration list for PBXNativeTarget "JumbleNRollTests" */;
+			buildPhases = (
+				A44003FA191C397100FF62CD /* Sources */,
+				A44003FB191C397100FF62CD /* Frameworks */,
+				A44003FC191C397100FF62CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4400404191C397100FF62CD /* PBXTargetDependency */,
+			);
+			name = JumbleNRollTests;
+			productName = JumbleNRollTests;
+			productReference = A44003FE191C397100FF62CD /* JumbleNRollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A44003D5191C396F00FF62CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Monica;
+				TargetAttributes = {
+					A44003FD191C397100FF62CD = {
+						TestTargetID = A44003DC191C396F00FF62CD;
+					};
+				};
+			};
+			buildConfigurationList = A44003D8191C396F00FF62CD /* Build configuration list for PBXProject "JumbleNRoll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A44003D4191C396F00FF62CD;
+			productRefGroup = A44003DE191C396F00FF62CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A44003DC191C396F00FF62CD /* JumbleNRoll */,
+				A44003FD191C397100FF62CD /* JumbleNRollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A44003DB191C396F00FF62CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41C438B1939369F007DA58D /* Woodgame1.png in Resources */,
+				A41C43921939A57D007DA58D /* reset.png in Resources */,
+				A41C439019393B54007DA58D /* trophy.png in Resources */,
+				A4082C84192331860089CD2B /* Main.png in Resources */,
+				A4400420191C3A3D00FF62CD /* ball1.png in Resources */,
+				A44003F9191C397100FF62CD /* Images.xcassets in Resources */,
+				A4082C9B192CEA520089CD2B /* Woodgame.png in Resources */,
+				A4082C7C19230A8A0089CD2B /* main1.png in Resources */,
+				A41C439C193A6727007DA58D /* word1.png in Resources */,
+				A4400421191C3A3D00FF62CD /* circle.png in Resources */,
+				A4400423191C3A3D00FF62CD /* Wood.jpg in Resources */,
+				A4F90A431937FDE000C0AC0B /* drag.jpg in Resources */,
+				A44003EB191C396F00FF62CD /* InfoPlist.strings in Resources */,
+				A4082CA3192D25260089CD2B /* gameex.PNG in Resources */,
+				A4082C95192C8A360089CD2B /* dragmode.png in Resources */,
+				A4400427191C3A3D00FF62CD /* Woodgame2.png in Resources */,
+				A4082CAB192D44C70089CD2B /* icon1.png in Resources */,
+				A4082CA5192D2B1A0089CD2B /* gameexdrag.png in Resources */,
+				A44003F4191C397000FF62CD /* Main.storyboard in Resources */,
+				A4082C97192C8AF10089CD2B /* roll.png in Resources */,
+				A41C439E193A6804007DA58D /* main3.png in Resources */,
+				A4082CAD192D44C70089CD2B /* icon3.png in Resources */,
+				A41C43A0193A6809007DA58D /* main4.png in Resources */,
+				A4082CAC192D44C70089CD2B /* icon2.png in Resources */,
+				A4400424191C3A3D00FF62CD /* Wood1.png in Resources */,
+				A4082C86192A6B2C0089CD2B /* main2.png in Resources */,
+				A492295D19208BDF00AD8087 /* Music3.mp3 in Resources */,
+				A4082CA7192D3E170089CD2B /* icon.png in Resources */,
+				A4EB78D2191C497800702D83 /* square.png in Resources */,
+				A41C43A4193A6B4B007DA58D /* words.png in Resources */,
+				A44BDC38191D90F9002AA72B /* a.gif in Resources */,
+				A4F90A451937FF6D00C0AC0B /* tilt1.png in Resources */,
+				A41C439A193A66EC007DA58D /* word2.png in Resources */,
+				A4400422191C3A3D00FF62CD /* redball.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44003FC191C397100FF62CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A440040A191C397200FF62CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A44003D9191C396F00FF62CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49229631920922A00AD8087 /* Audio.m in Sources */,
+				A41C438E19393718007DA58D /* BestTimesControllerViewController.m in Sources */,
+				A4922952191FBD6000AD8087 /* SecondViewController.m in Sources */,
+				A44003F7191C397100FF62CD /* ViewController.m in Sources */,
+				A45A4E68193913D9009E79FA /* BestTimes.m in Sources */,
+				A45A4E71193918FE009E79FA /* Times.m in Sources */,
+				A44003F1191C397000FF62CD /* AppDelegate.m in Sources */,
+				A4082C82192316EC0089CD2B /* RollModeViewController.m in Sources */,
+				A4EB78CB191C3DAA00702D83 /* BallView.m in Sources */,
+				A492294F191FB4EE00AD8087 /* AudioController.m in Sources */,
+				A440042D191C3AB300FF62CD /* FirstViewController.m in Sources */,
+				A4EB78C8191C3D3200702D83 /* CircleTile.m in Sources */,
+				A44003ED191C397000FF62CD /* main.m in Sources */,
+				A4082C91192C7F1B0089CD2B /* DragModeViewController.m in Sources */,
+				A4EB78CE191C423800702D83 /* SquareTile.m in Sources */,
+				A440042A191C3A7D00FF62CD /* InstructionsViewController.m in Sources */,
+				A41C4398193A2BA1007DA58D /* CommonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44003FA191C397100FF62CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A440040C191C397200FF62CD /* JumbleNRollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4400404191C397100FF62CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A44003DC191C396F00FF62CD /* JumbleNRoll */;
+			targetProxy = A4400403191C397100FF62CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A44003E9191C396F00FF62CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A44003EA191C396F00FF62CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A44003F2191C397000FF62CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A44003F3191C397000FF62CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4400408191C397200FF62CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4400409191C397200FF62CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A440040D191C397200FF62CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A440040E191C397200FF62CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4400410191C397200FF62CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumbleNRoll/JumbleNRoll-Prefix.pch";
+				INFOPLIST_FILE = "JumbleNRoll/JumbleNRoll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4400411191C397200FF62CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumbleNRoll/JumbleNRoll-Prefix.pch";
+				INFOPLIST_FILE = "JumbleNRoll/JumbleNRoll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A4400413191C397200FF62CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JumbleNRoll.app/JumbleNRoll";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumbleNRoll/JumbleNRoll-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JumbleNRollTests/JumbleNRollTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A4400414191C397200FF62CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JumbleNRoll.app/JumbleNRoll";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumbleNRoll/JumbleNRoll-Prefix.pch";
+				INFOPLIST_FILE = "JumbleNRollTests/JumbleNRollTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A44003D8191C396F00FF62CD /* Build configuration list for PBXProject "JumbleNRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A440040D191C397200FF62CD /* Debug */,
+				A440040E191C397200FF62CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A440040F191C397200FF62CD /* Build configuration list for PBXNativeTarget "JumbleNRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4400410191C397200FF62CD /* Debug */,
+				A4400411191C397200FF62CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4400412191C397200FF62CD /* Build configuration list for PBXNativeTarget "JumbleNRollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4400413191C397200FF62CD /* Debug */,
+				A4400414191C397200FF62CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A44003D5191C396F00FF62CD /* Project object */;
+}
